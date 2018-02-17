@@ -32,7 +32,7 @@ userSchema.pre('save', function(next) {
     this.groups.push({name : 'user'});
   }
 
-  if (this.email === "eusorov@googlemail.com" || this.email === "eusorov@gmail.com"){
+  if (this.email === process.env.Username+"@googlemail.com" || this.email === process.env.Username+"@gmail.com"){
     if (!this.groups.some(function (group: string){
         if (group === "admin") return true;
     })){
