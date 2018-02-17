@@ -32,7 +32,6 @@ It means if market goes up by 5%, your stoploss will ajust to = marketprice * St
 
 ## Backend:
 * node
-* express
 * mongodb
 
 ## License
