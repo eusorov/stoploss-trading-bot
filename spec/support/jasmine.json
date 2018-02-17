@@ -1,0 +1,13 @@
+{
+  "spec_dir": "dist",
+  "spec_files": [
+    "**/*[sS]pec.js"
+  ],
+  "helpers": [
+    "helpers/**/*.js"
+  ],
+  "stopSpecOnExpectationFailure": true,
+  "DEFAULT_TIMEOUT_INTERVAL": 20000, 
+  "random": false
+
+}
