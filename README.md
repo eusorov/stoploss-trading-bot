@@ -3,7 +3,7 @@
 It automatically detects if you have balance on Exchange with buy Orders. For this buy Orders the bot sets a stoploss.
 In Intervall the bot checks current market price and if stoploss is hit, it automatically sets a sell order on Kraken-Exchange.
 
-##.env.example
+## Evironment variables in .env.example
 
 change .env.example to .env and put your keys thier
 
